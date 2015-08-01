@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us" data-ng-app="myApp">
+    <head>
+        <title>Introduction to AngularJS</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="UTF-8">
+
+        <!-- load bootstrap and fontawesome via CDN -->
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        
+        <!-- load angular via CDN -->
+        <script src="https://code.angularjs.org/1.4.2/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.4.2/angular-messages.min.js"></script>
+        <script src="https://code.angularjs.org/1.4.2/angular-resource.min.js"></script>
+    </head>
+    <body>
+       
+        <div class="container" style="margin: 50px; padding: 20px; background-color: #eee;">
+            <div data-ng-controller="mainController">
+                <h1>Hello World!</h1>
+            </div>
+        </div>
+        
+        <div class="container" style="margin: 50px; padding: 20px; background-color: #eee;">
+            <form name="myForm">
+                
+                <div data-ng-messages="myForm.myField.$error" role="alert">
+                   <label>
+                        Enter Email:
+                        <input type="text" data-ng-model="field" name="myField" required minlength="5" />
+                    </label>
+                    
+                    <div class="alert alert-danger" data-ng-message="required">You did not enter a field</div>
+                    <div class="alert alert-danger" data-ng-message="minlength, maxlength">Your email must be between 5 and 100 characters long</div>
+                </div>
+          </form>
+        </div>
+        
+
+        
+    </body>
+    
+    <script src="app.js"></script>
+</html>
