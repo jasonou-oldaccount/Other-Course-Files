@@ -10,3 +10,5 @@ Course files from online classes or other sources not from UCSC
 - Udemy : Ruby on Rails (Learned how to create own authentication system, use of AWS file/image hosting, Test Driven Development, and created a working web application from scratch)
 
 - Udemy : BackboneJS ()
+
+- Udacity : Android Development (Beginner - Learned the basics of Android development, connecting views with java as well as mulitpulating views using java)
