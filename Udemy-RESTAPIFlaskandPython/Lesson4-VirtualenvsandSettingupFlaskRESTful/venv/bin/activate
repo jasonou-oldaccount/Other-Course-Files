@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/innouvation/Desktop/Other-Course-Files/Udemy-RESTAPIFlaskandPython/Lesson4-VirtualenvsandSettingupFlaskRESTful/venv"
+VIRTUAL_ENV="/Users/innouvation/Desktop/flask-restful-tutorial/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
