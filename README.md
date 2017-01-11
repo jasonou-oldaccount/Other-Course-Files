@@ -13,4 +13,4 @@ Course files from online classes or other sources not from UCSC
 
 - Udemy : React Web Development (In Progress)
 
-- Udemy : REST API Flask and Python (In Progress)
+- Udemy : REST API Flask and Python
